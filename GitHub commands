@@ -1,0 +1,52 @@
+$ git init												--> Used to initialize empty Git repository
+
+$ git clone https://github.com/ramugubbala/Dataengineer.git 	--> Cloning remote repository into local machine.
+
+$ cd Dataengineer
+
+$ ls -ltr
+
+$ git add new_files										--> Add new files to the local git repository
+or
+$ git add .												--> Period is used to add multiple files to the repository
+
+$ git commit -m "commit message added new file"			--> Commit is used to add final changes to the local repository
+
+$ git status											--> Status will show the current branch
+
+$ git push origin master								--> Push is used to publish local commits to the remote server
+
+$ git pull												--> Pull is used to download the latest files from remote server
+
+
+### New folder and New files connection
+
+Step1: Create a new folder in your local machine repository
+Step2: Go to the new folder and type "git init" to initialize the repository
+
+$ git init
+
+$ git remote add origin https://github.com/ramugubbala/Dataengineer.git  --> Map the remote repository to the new folder
+
+$ git pull origin master								--> To download all the files from remote server to local
+
+### Add or modify the files and save
+
+$ git add new_files										--> Add new files to the local git repository
+or
+$ git add .												--> Period is used to add multiple files to the repository
+
+$ git commit -m "commit message added new file"			--> Commit is used to add final changes to the local repository
+
+$ git status											--> Status will show the current branch
+
+$ git push origin master								--> Push is used to publish local commits to the remote server
+
+### To import new changes or files, go to your folder
+
+$ cd Dataengineer
+
+$ git pull
+
+### Creating new Branch
+
